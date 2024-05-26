@@ -4,8 +4,8 @@ Dimensionality reduction using the dMeans method. This algorithm allows, by calc
 Step-by-step
 
 
-1. En la primera celda se incluyen las librerías necesarias para poder ejecutar el código que realiza el método de reducción de dimensionalidad, dMeans.
+1. The first cell includes the libraries needed to run the code that performs the dimensionality reduction method, dMeans.
 
-2. En la segunda celda, únicamente se establece la fuente de obtención del dataset (en este caso alojado en Google Drive). Este puede ser sustituido por cualquier otro método de lectura del dataset.
+2. In the second cell, only the source for obtaining the dataset (in this case hosted in Google Drive) is established. This can be replaced by any other method of reading the dataset.
 
-3. La función calculate_relevance_array, toma cada uno de los rasgos de tal manera que calcula la media aritmética entre los patrones de la clase Positive, y la clase Negative. Esto genera un valor numérico real por cada feature analizado. Finalmente, se crea un arreglo que incluye los índices de los features, y son ordenados de manera descendente, siendo el primero elemento el rasgo de mayor relevancia.
+3. The function calculate_relevance_array, takes each of the traits in such a way that it calculates the arithmetic mean between the patterns of the Positive class, and the Negative class. This generates a real numeric value for each analysed feature. Finally, an array is created that includes the indices of the features, and they are sorted in descending order, with the first element being the feature with the highest relevance.
