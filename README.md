@@ -1,4 +1,4 @@
-# dMeans-Dimensionality-Reduction
+## dMeans-Dimensionality-Reduction
 Dimensionality reduction using the dMeans method. This algorithm allows, by calculating differences based on the means of each attribute.
 
 Step-by-step dMeans_with_classifiers.ipynb
